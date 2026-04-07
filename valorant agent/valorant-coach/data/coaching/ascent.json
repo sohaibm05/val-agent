@@ -1,0 +1,277 @@
+{
+  "map": "Ascent",
+  "callouts": {
+    "A Main": {
+      "peek_angles": [
+        {
+          "name": "Shoulder peek from left wall",
+          "description": "Use the left wall for a shoulder peek into A Main to bait util and gather info.",
+          "side": "attack",
+          "difficulty": "easy"
+        },
+        {
+          "name": "Hold A Main from generator",
+          "description": "Pre-aim generator head-level and hold an off-angle near CT as defender.",
+          "side": "defense",
+          "difficulty": "medium"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "A Site recon bolt (A Main entry)",
+            "type": "recon_bolt",
+            "description": "Back-left corner of A Main, aim above the tree line, 2 bounces, full charge. Reveals site default.",
+            "bounces": 2,
+            "power": "full"
+          },
+          {
+            "name": "CT spawn shock dart",
+            "type": "shock_dart",
+            "description": "Standard post-plant dart landing on default plant spot.",
+            "bounces": 1,
+            "power": "full"
+          }
+        ],
+        "Viper": [
+          {
+            "name": "A Main entry wall",
+            "type": "toxic_screen",
+            "description": "Line up against the left wall and throw toxic screen straight through A Main to cut site.",
+            "side": "attack"
+          }
+        ],
+        "Omen": [
+          {
+            "name": "A Site double smoke from A Main",
+            "type": "dark_cover",
+            "description": "From A Main corner: one smoke on CT, one on Generator. Blocks both defender angles.",
+            "side": "attack"
+          }
+        ],
+        "KAY/O": [
+          {
+            "name": "ZERO/point knife into A Site",
+            "type": "suppression",
+            "description": "From back of A Main, aim at A Site roof for a suppress that lands on default plant.",
+            "side": "attack"
+          }
+        ]
+      },
+      "setups": {},
+      "tips": [
+        "Don't wide-peek — shoulder peek to bait sentinel util.",
+        "Listen for A Tree footsteps before committing.",
+        "Drop smokes before util like Sova arrows."
+      ]
+    },
+    "A Site": {
+      "peek_angles": [
+        {
+          "name": "CT doorway hold",
+          "description": "Crosshair on CT doorway head-level while anchoring.",
+          "side": "defense",
+          "difficulty": "easy"
+        },
+        {
+          "name": "Heaven off-angle",
+          "description": "Hold from Heaven with a pixel-peek over the railing.",
+          "side": "defense",
+          "difficulty": "medium"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "Post-plant dart to default",
+            "type": "shock_dart",
+            "description": "From CT corner, align with minimap edge and throw for default plant clear.",
+            "bounces": 0,
+            "power": "full"
+          }
+        ],
+        "Brimstone": [
+          {
+            "name": "A Site retake smoke stack",
+            "type": "smoke",
+            "description": "Drop smokes on Heaven, CT, and Generator to isolate the site for retake.",
+            "side": "defense"
+          }
+        ]
+      },
+      "setups": {
+        "Cypher": [
+          {
+            "name": "A Site anchor trip + cam",
+            "description": "Tripwire across A Main choke, camera on generator covering site and default plant.",
+            "side": "defense"
+          }
+        ],
+        "Killjoy": [
+          {
+            "name": "A Site full lockdown",
+            "description": "Turret on boxes watching A Main, alarm bot behind generator, nanoswarms on default plant.",
+            "side": "defense"
+          }
+        ],
+        "Chamber": [
+          {
+            "name": "A Site tp retreat",
+            "description": "Trademark covering A Main; Rendezvous anchored at CT for instant rotate/retreat.",
+            "side": "defense"
+          }
+        ],
+        "Sage": [
+          {
+            "name": "A Site wall delay",
+            "description": "Save wall for A Main push — wall off the entry to delay and let teammates rotate.",
+            "side": "defense"
+          }
+        ]
+      },
+      "tips": [
+        "Anchor from CT or Heaven — avoid getting traded in open site.",
+        "Pre-plant util before dropping onto site as attacker.",
+        "Communicate plant position for your post-plant lineups."
+      ]
+    },
+    "Mid": {
+      "peek_angles": [
+        {
+          "name": "Mid Top angle from Market",
+          "description": "Peek Mid Top from Market with a tight head-level crosshair.",
+          "side": "attack",
+          "difficulty": "medium"
+        },
+        {
+          "name": "Catwalk hold",
+          "description": "Hold Catwalk from the back with an AWP-friendly long angle.",
+          "side": "defense",
+          "difficulty": "medium"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "Catwalk recon from Mid Top",
+            "type": "recon_bolt",
+            "description": "From Mid Top, aim at the pillar near Catwalk. 1 bounce, full charge.",
+            "bounces": 1,
+            "power": "full"
+          }
+        ],
+        "Viper": [
+          {
+            "name": "Mid control wall",
+            "type": "toxic_screen",
+            "description": "Wall from Market through Mid Top to cut Catwalk vision and take Mid control.",
+            "side": "attack"
+          }
+        ]
+      },
+      "setups": {
+        "Killjoy": [
+          {
+            "name": "Mid Market alarm",
+            "description": "Alarm bot tucked in Market corner — catches mid-takes early.",
+            "side": "defense"
+          }
+        ]
+      },
+      "tips": [
+        "Mid control = map control on Ascent. Don't neglect it.",
+        "Smoke Catwalk + Top Mid to take a safe Market push."
+      ]
+    },
+    "B Main": {
+      "peek_angles": [
+        {
+          "name": "B Main shoulder peek",
+          "description": "Shoulder peek from Market side to bait sentinel util.",
+          "side": "attack",
+          "difficulty": "easy"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "B Site recon bolt",
+            "type": "recon_bolt",
+            "description": "From B Main back, aim above doorway, 1 bounce, full charge.",
+            "bounces": 1,
+            "power": "full"
+          }
+        ],
+        "Omen": [
+          {
+            "name": "B Site double smoke",
+            "type": "dark_cover",
+            "description": "Smoke CT and Lane from B Main to safely plant default.",
+            "side": "attack"
+          }
+        ]
+      },
+      "setups": {
+        "Killjoy": [
+          {
+            "name": "B Site full lockdown",
+            "description": "Turret on stairs, alarm bot in CT, nanoswarms on default plant.",
+            "side": "defense"
+          }
+        ],
+        "Cypher": [
+          {
+            "name": "B Boathouse flank watch",
+            "description": "Trip across Boathouse to catch mid→B flanks. Cam on CT covering site.",
+            "side": "defense"
+          }
+        ]
+      },
+      "tips": [
+        "Check Boathouse before pushing B Main.",
+        "B plant is vulnerable to Market flanks — clear Market first."
+      ]
+    },
+    "B Site": {
+      "peek_angles": [
+        {
+          "name": "CT corner hold",
+          "description": "Anchor from CT corner, crosshair on B Main entry.",
+          "side": "defense",
+          "difficulty": "easy"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "B post-plant shock",
+            "type": "shock_dart",
+            "description": "From back of B, align with default plant and throw arced shock.",
+            "bounces": 1,
+            "power": "full"
+          }
+        ]
+      },
+      "setups": {
+        "Killjoy": [
+          {
+            "name": "B ultimate retake",
+            "description": "Lockdown ultimate from CT covers full site for a forced retake.",
+            "side": "defense"
+          }
+        ]
+      },
+      "tips": [
+        "Default plant is the safest for post-plant lineups."
+      ]
+    },
+    "Unknown": {
+      "peek_angles": [],
+      "lineups": {},
+      "setups": {},
+      "tips": [
+        "Waiting for position lock..."
+      ]
+    }
+  }
+}

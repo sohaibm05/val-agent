@@ -1,0 +1,106 @@
+{
+  "map": "Haven",
+  "callouts": {
+    "A Long": {
+      "peek_angles": [
+        {"name": "A Long wide swing", "description": "Wide swing from Sewer corner into A Long after flash support.", "side": "attack", "difficulty": "medium"},
+        {"name": "A Long sniper hold", "description": "Hold A Long from A Site with an operator or sniper-friendly angle.", "side": "defense", "difficulty": "medium"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "A Site recon from Long", "type": "recon_bolt", "description": "From Sewer corner, aim high, 1 bounce reveals A Site default and Heaven.", "bounces": 1, "power": "full"}
+        ],
+        "Viper": [
+          {"name": "A Long cut wall", "type": "toxic_screen", "description": "Wall from Sewer through A Long to cut A Site vision.", "side": "attack"}
+        ]
+      },
+      "setups": {
+        "Killjoy": [{"name": "A Long alarm trap", "description": "Alarm bot mid-Long, turret on A Site watching Long.", "side": "defense"}]
+      },
+      "tips": ["A Long is a long lane — always flash or smoke before peeking."]
+    },
+    "A Site": {
+      "peek_angles": [
+        {"name": "Heaven hold", "description": "Anchor from A Heaven with pixel-peek over site.", "side": "defense", "difficulty": "medium"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "A default post-plant shock", "type": "shock_dart", "description": "From A Long, arc a shock dart onto A default plant.", "bounces": 1, "power": "full"}
+        ],
+        "Brimstone": [
+          {"name": "A retake triple smoke", "description": "Smoke Heaven, Long, and Short to isolate A for retake.", "side": "defense"}
+        ]
+      },
+      "setups": {
+        "Cypher": [{"name": "A Heaven cam + trip", "description": "Cam in Heaven covering site, trip across A Long entry.", "side": "defense"}],
+        "Killjoy": [{"name": "A Site lockdown", "description": "Turret on Heaven, nanoswarms on default plant, alarm bot Short.", "side": "defense"}]
+      },
+      "tips": ["Haven has 3 sites — rotations are slower, punish with fast hits."]
+    },
+    "A Short": {
+      "peek_angles": [
+        {"name": "A Short shoulder peek", "description": "Shoulder peek A Short to bait sentinel util before committing.", "side": "attack", "difficulty": "easy"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "A Short recon", "type": "recon_bolt", "description": "From back of Short, aim high for 1-bounce A Site reveal.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {},
+      "tips": ["A Short is the fast entry — combine with Long split."]
+    },
+    "Mid": {
+      "peek_angles": [
+        {"name": "Mid Window peek", "description": "Peek Mid Window head-level from C Long side.", "side": "attack", "difficulty": "medium"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "Mid Window recon", "type": "recon_bolt", "description": "From back of Mid, aim through window for 1 bounce Mid Courtyard reveal.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {
+        "Killjoy": [{"name": "Mid Courtyard alarm", "description": "Alarm bot behind Mid boxes to catch Mid takes.", "side": "defense"}]
+      },
+      "tips": ["Mid control on Haven enables B and C splits."]
+    },
+    "B Site": {
+      "peek_angles": [
+        {"name": "B Garage hold", "description": "Anchor from B Garage side with crosshair on B Main.", "side": "defense", "difficulty": "easy"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "B Site post-plant", "type": "shock_dart", "description": "From Mid, arced shock onto B default plant.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {
+        "Cypher": [{"name": "B flank watch", "description": "Trip covering Mid→B rotation path, cam on site.", "side": "defense"}]
+      },
+      "tips": ["B is the smallest site — tight post-plant setups work best."]
+    },
+    "C Long": {
+      "peek_angles": [
+        {"name": "C Long wide swing", "description": "Wide swing C Long after smoking Garage.", "side": "attack", "difficulty": "medium"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "C Site recon from Long", "type": "recon_bolt", "description": "From C Long back, aim high — 1 bounce reveals C default.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {},
+      "tips": ["C is often underdefended — fast C hits are strong on Haven."]
+    },
+    "C Site": {
+      "peek_angles": [],
+      "lineups": {
+        "Sova": [
+          {"name": "C default post-plant", "type": "shock_dart", "description": "From C Long, arc onto default plant.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {
+        "Killjoy": [{"name": "C full lockdown", "description": "Turret on Garage, nanoswarm default, alarm on C Long.", "side": "defense"}]
+      },
+      "tips": ["Watch Garage flanks on retake."]
+    },
+    "Unknown": {"peek_angles": [], "lineups": {}, "setups": {}, "tips": ["Waiting for position lock..."]}
+  }
+}

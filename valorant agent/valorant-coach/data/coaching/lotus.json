@@ -1,0 +1,72 @@
+{
+  "map": "Lotus",
+  "callouts": {
+    "A Main": {
+      "peek_angles": [
+        {"name": "A Main shoulder peek", "description": "Shoulder peek A Main to bait util before the door.", "side": "attack", "difficulty": "easy"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "A Site recon from Main", "type": "recon_bolt", "description": "From A Main, aim high through the rotating door, 1 bounce reveals A default.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {},
+      "tips": ["Rotating doors make info-gathering critical — use recon."]
+    },
+    "A Site": {
+      "peek_angles": [
+        {"name": "A Tree hold", "description": "Anchor from A Tree with crosshair on A Main.", "side": "defense", "difficulty": "medium"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "A post-plant shock", "type": "shock_dart", "description": "From A Main, arc shock to A default plant.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {
+        "Cypher": [{"name": "A Tree cam + trip", "description": "Cam in Tree covering site, trip across A Main.", "side": "defense"}],
+        "Killjoy": [{"name": "A full lockdown", "description": "Turret Tree, nanoswarm default, alarm on rotating door.", "side": "defense"}]
+      },
+      "tips": ["A Tree off-angle is strong on Lotus."]
+    },
+    "B Main": {
+      "peek_angles": [
+        {"name": "B Main peek", "description": "Peek B Main from the corner with head-level crosshair.", "side": "attack", "difficulty": "medium"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "B Site recon", "type": "recon_bolt", "description": "From B Main, aim high — 1 bounce reveals B default and Drop.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {},
+      "tips": ["Lotus B is a middle lane — both teams can rotate fast."]
+    },
+    "C Main": {
+      "peek_angles": [
+        {"name": "C Main shoulder peek", "description": "Shoulder peek C Main from Waterfall to bait sentinel util.", "side": "attack", "difficulty": "easy"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "C Site recon from Main", "type": "recon_bolt", "description": "From Waterfall corner, aim high, 1 bounce reveals C default.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {},
+      "tips": ["C rotations are slow on Lotus — punish with fast C hits."]
+    },
+    "C Site": {
+      "peek_angles": [
+        {"name": "C Hall hold", "description": "Anchor C Hall with crosshair on C Main.", "side": "defense", "difficulty": "easy"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "C post-plant", "type": "shock_dart", "description": "From C Main, arc shock to C default plant.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {
+        "Killjoy": [{"name": "C full lockdown", "description": "Turret Hall, nanoswarm default, alarm Waterfall.", "side": "defense"}],
+        "Cypher": [{"name": "C Hall cam + trip", "description": "Cam in Hall, trip across C Main.", "side": "defense"}]
+      },
+      "tips": ["Watch Waterfall flank on retake."]
+    },
+    "Unknown": {"peek_angles": [], "lineups": {}, "setups": {}, "tips": ["Waiting for position lock..."]}
+  }
+}

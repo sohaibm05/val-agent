@@ -1,0 +1,8 @@
+{
+  "_comment": "Placeholder polygon regions for Bind. Use annotate_callouts.py to replace with real polygons matching your minimap region.",
+  "A Short":  [[200, 0],   [430, 0],   [430, 120], [200, 120]],
+  "A Site":   [[250, 120], [430, 120], [430, 260], [250, 260]],
+  "Hookah":   [[0, 180],   [180, 180], [180, 300], [0, 300]],
+  "B Long":   [[0, 0],     [200, 0],   [200, 180], [0, 180]],
+  "B Site":   [[0, 300],   [230, 300], [230, 430], [0, 430]]
+}

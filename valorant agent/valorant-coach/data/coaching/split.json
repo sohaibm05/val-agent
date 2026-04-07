@@ -1,0 +1,77 @@
+{
+  "map": "Split",
+  "callouts": {
+    "A Main": {
+      "peek_angles": [
+        {"name": "A Ramps shoulder peek", "description": "Shoulder peek A Ramps from A Main to bait util.", "side": "attack", "difficulty": "easy"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "A Site recon from Ramps", "type": "recon_bolt", "description": "From A Main, aim above the ramp, 1 bounce reveals A default and Screens.", "bounces": 1, "power": "full"}
+        ],
+        "Viper": [
+          {"name": "A Ramps wall", "type": "toxic_screen", "description": "Wall from A Main cutting Screens and Rafters.", "side": "attack"}
+        ]
+      },
+      "setups": {},
+      "tips": ["A takes require map control via Ramps — clear Ramps corner."]
+    },
+    "A Site": {
+      "peek_angles": [
+        {"name": "Rafters hold", "description": "Anchor Rafters with crosshair on Ramps entry.", "side": "defense", "difficulty": "medium"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "A default post-plant", "type": "shock_dart", "description": "From Ramps, arc shock onto A default plant.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {
+        "Cypher": [{"name": "A Rafters trip", "description": "Trip on Ramps, cam on Screens covering default plant.", "side": "defense"}],
+        "Killjoy": [{"name": "A site lockdown", "description": "Turret Screens, nanoswarm default, alarm on Ramps.", "side": "defense"}]
+      },
+      "tips": ["Rafters off-angles are strong — use them on defense."]
+    },
+    "Mid": {
+      "peek_angles": [
+        {"name": "Mid Mail peek", "description": "Peek Mid Mail window after smoking Vent.", "side": "attack", "difficulty": "medium"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "Mid Vent recon", "type": "recon_bolt", "description": "Aim from Mid Bottom through Vent, 1 bounce reveals Mid Top and Vent.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {
+        "Killjoy": [{"name": "Mid Mail alarm", "description": "Alarm bot in Mid Mail corner catches mid-takes.", "side": "defense"}]
+      },
+      "tips": ["Split's Mid gates B via Vent — Mid control enables B splits."]
+    },
+    "B Main": {
+      "peek_angles": [
+        {"name": "B Main shoulder peek", "description": "Shoulder peek B Main to bait util.", "side": "attack", "difficulty": "easy"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "B Site recon", "type": "recon_bolt", "description": "From back of B Main, aim high, 1 bounce reveals B default.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {},
+      "tips": ["Check Tower before pushing B Main."]
+    },
+    "B Site": {
+      "peek_angles": [
+        {"name": "B Tower hold", "description": "Anchor Tower with crosshair on B Main.", "side": "defense", "difficulty": "easy"}
+      ],
+      "lineups": {
+        "Sova": [
+          {"name": "B post-plant", "type": "shock_dart", "description": "From Alley, arc shock to B default plant.", "bounces": 1, "power": "full"}
+        ]
+      },
+      "setups": {
+        "Killjoy": [{"name": "B full lockdown", "description": "Turret Tower, nanoswarm default, alarm bot Back Site.", "side": "defense"}],
+        "Cypher": [{"name": "B Tower cam + trip", "description": "Cam in Tower covering site, trip across B Main choke.", "side": "defense"}]
+      },
+      "tips": ["Tower is the strongest anchor position on Split B."]
+    },
+    "Unknown": {"peek_angles": [], "lineups": {}, "setups": {}, "tips": ["Waiting for position lock..."]}
+  }
+}

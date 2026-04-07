@@ -1,0 +1,8 @@
+{
+  "_comment": "Placeholder polygon regions for Ascent. Tune these to match your actual minimap_region size (width x height). Points are [x, y] in minimap pixel space. Use the calibration tool to capture a minimap screenshot, then edit these coordinates.",
+  "A Main":  [[0, 0],   [200, 0],   [200, 120], [0, 120]],
+  "A Site":  [[200, 0], [430, 0],   [430, 150], [200, 150]],
+  "Mid":     [[100, 120], [330, 120], [330, 280], [100, 280]],
+  "B Main":  [[0, 280], [200, 280], [200, 430], [0, 430]],
+  "B Site":  [[200, 280], [430, 280], [430, 430], [200, 430]]
+}

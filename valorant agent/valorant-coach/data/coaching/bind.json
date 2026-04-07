@@ -1,0 +1,211 @@
+{
+  "map": "Bind",
+  "callouts": {
+    "A Short": {
+      "peek_angles": [
+        {
+          "name": "Short shoulder peek",
+          "description": "Shoulder peek A Short from behind the wall to bait sentinel util.",
+          "side": "attack",
+          "difficulty": "easy"
+        },
+        {
+          "name": "Short elbow hold",
+          "description": "Anchor A Short elbow with crosshair pre-aimed at head-level.",
+          "side": "defense",
+          "difficulty": "easy"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "A Site recon from Short",
+            "type": "recon_bolt",
+            "description": "From back of Short, aim high, 1 bounce. Reveals Heaven and default plant.",
+            "bounces": 1,
+            "power": "full"
+          }
+        ],
+        "Viper": [
+          {
+            "name": "A Short wall into site",
+            "type": "toxic_screen",
+            "description": "Wall straight from A Short into site to cut Heaven and CT vision.",
+            "side": "attack"
+          }
+        ]
+      },
+      "setups": {
+        "Killjoy": [
+          {
+            "name": "A Short alarm + turret",
+            "description": "Alarm bot behind Short wall, turret on site covering Short entry.",
+            "side": "defense"
+          }
+        ]
+      },
+      "tips": [
+        "Short is the easier of the two A entries — use it for fast A hits."
+      ]
+    },
+    "A Site": {
+      "peek_angles": [
+        {
+          "name": "CT hold",
+          "description": "Anchor CT with crosshair on Short entry head-level.",
+          "side": "defense",
+          "difficulty": "easy"
+        },
+        {
+          "name": "Heaven pixel peek",
+          "description": "Heaven anchor with a pixel-peek over the site.",
+          "side": "defense",
+          "difficulty": "medium"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "A Site post-plant shock",
+            "type": "shock_dart",
+            "description": "From Heaven side, throw arced shock on default plant.",
+            "bounces": 1,
+            "power": "full"
+          }
+        ],
+        "Brimstone": [
+          {
+            "name": "A retake triple smoke",
+            "description": "Smoke Heaven, CT, and Short to isolate site for retake.",
+            "side": "defense"
+          }
+        ]
+      },
+      "setups": {
+        "Cypher": [
+          {
+            "name": "A Site anchor",
+            "description": "Trip in Short hallway, cam behind default plant boxes.",
+            "side": "defense"
+          }
+        ],
+        "Killjoy": [
+          {
+            "name": "A Site nanoswarm default",
+            "description": "Two nanoswarms on default plant, turret on Heaven watching Short.",
+            "side": "defense"
+          }
+        ]
+      },
+      "tips": [
+        "Heaven is the strongest post-plant position for A."
+      ]
+    },
+    "B Long": {
+      "peek_angles": [
+        {
+          "name": "Long shoulder peek",
+          "description": "Shoulder peek Long from U-Hall to draw shots from CT.",
+          "side": "attack",
+          "difficulty": "medium"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "B Site recon from Long",
+            "type": "recon_bolt",
+            "description": "From U-Hall, aim high at the wall, 2 bounces. Reveals B default and Hookah.",
+            "bounces": 2,
+            "power": "full"
+          }
+        ],
+        "Viper": [
+          {
+            "name": "B Long wall",
+            "type": "toxic_screen",
+            "description": "Wall straight down Long from U-Hall to cut CT vision.",
+            "side": "attack"
+          }
+        ]
+      },
+      "setups": {
+        "Cypher": [
+          {
+            "name": "Long trip + cam",
+            "description": "Trip midway down Long, cam covering default plant on B.",
+            "side": "defense"
+          }
+        ]
+      },
+      "tips": [
+        "Long is the hardest angle to clear as attacker — use smoke + flash.",
+        "Teleporter flanks are common on Bind — always watch back."
+      ]
+    },
+    "Hookah": {
+      "peek_angles": [
+        {
+          "name": "Hookah window peek",
+          "description": "Peek B site from Hookah window with a wide swing.",
+          "side": "attack",
+          "difficulty": "medium"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "Hookah recon",
+            "type": "recon_bolt",
+            "description": "From back of Hookah, aim at window frame, 1 bounce. Reveals CT and B default.",
+            "bounces": 1,
+            "power": "full"
+          }
+        ]
+      },
+      "setups": {},
+      "tips": [
+        "Hookah is the primary B push route — expect sentinel util."
+      ]
+    },
+    "B Site": {
+      "peek_angles": [
+        {
+          "name": "CT anchor",
+          "description": "Hold CT corner with crosshair on Hookah window.",
+          "side": "defense",
+          "difficulty": "easy"
+        }
+      ],
+      "lineups": {
+        "Sova": [
+          {
+            "name": "B default post-plant",
+            "type": "shock_dart",
+            "description": "From Long, line up B site default plant with an arced shock.",
+            "bounces": 0,
+            "power": "full"
+          }
+        ]
+      },
+      "setups": {
+        "Killjoy": [
+          {
+            "name": "B ultimate lockdown",
+            "description": "Lockdown from CT to force retake across the whole B site.",
+            "side": "defense"
+          }
+        ]
+      },
+      "tips": [
+        "Post-plant from Long is strongest on B."
+      ]
+    },
+    "Unknown": {
+      "peek_angles": [],
+      "lineups": {},
+      "setups": {},
+      "tips": ["Waiting for position lock..."]
+    }
+  }
+}
